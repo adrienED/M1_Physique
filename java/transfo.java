@@ -1,0 +1,70 @@
+public class transfo {
+
+
+    public static double Vol(double[] a, double [] b, double[] c){
+	double[] bc = new double[3];
+	outils.Crossprod(b,c,bc);
+	return(Math.abs(outils.Scalarprod(a,bc,3)));
+    }
+
+
+    
+    public static void Trans (double[] a,double [] v, double[] av){
+	int n;
+	for(n=0;n<3;n++){
+	    av[n] = a[n] + v[n];
+	}
+    }
+
+    public static void Par (double r[] , double [] v, double [] rv){
+			   double[] vpar = new double[3];
+			   int n;
+
+			   for(n=0;n<3;n++){
+			       vpar[n] = outils.Scalarprod(r,v,3)*r[n];
+			       rv[n]=2.*vpar[n]-v[n];
+
+			   }
+			   }
+
+    public static void Rot(double[] r ,double[] v, double[] rv, double theta){
+
+	double[] rxv = new double[3];
+
+	outils.Crossprod(r,v,rxv); // calcul du produit vectoriel r x v
+
+	double rva, rvb,rvc;
+       
+
+	rva = (1.-Math.cos(theta))*outils.Scalarprod(r,v,3)*r[0];
+        rvb = Math.cos(theta)*v[0];
+        rvc = Math.sin(theta)*rxv[0];
+
+        rv[0] = rva + rvb + rvc;
+
+
+        rva = (1.-Math.cos(theta))*outils.Scalarprod(r,v,3)*r[1];
+        rvb = Math.cos(theta)*v[1];
+        rvc = Math.sin(theta)*rxv[1];
+
+        rv[1] = rva + rvb + rvc;
+
+
+
+        rva = (1.-Math.cos(theta))*outils.Scalarprod(r,v,3)*r[2];
+        rvb = Math.cos(theta)*v[2];
+        rvc = Math.sin(theta)*rxv[2];
+        rv[2] = rva + rvb + rvc;
+	
+    }
+
+}
+
+
+
+
+
+
+	       
+
+   

@@ -1,0 +1,46 @@
+Résumé du cours d'informatique et des tp en méthode numerique
+
+1)Info
+Gestion : shellscripts :execution de commandes
+	  make : préparer l'executable
+
+Langugage Java : animations
+		la gestion de taches : extension des classes et appels de classe et de methode à travers d'autres classes
+		construction d'objet géométrique
+
+minimum cube
+
+prendre copie de carre.out aller dans applis.java 
+et faire en sorte que applis.java afficher 
+les valeurs dans le même ordre que cube.out
+
+pour gnuplot le cube il faut afficher les point au fur et a mesure dans le fichier .out (voir carré.out) 
+
+combien de sommet de valence paire le graphe 
+doit posséder si l'on veut dessiner sans "lever la main"
+
+et animation
+bonus octaedre
+
+
+
+
+2)méthode numerique 
+derrière version sur la page de nicolis
+Resoudre EDP 
+résoudre equation d'onde avec condition de dirichlet, one a deux paquets d'onde qui ne se déforme pas
+puis on changer g²
+
+equation d'onde en fonction des effets qui exrpime la dispersion,
+je prend pour condition initiale une gaussienne 
+si je modifie les effets de dispersion : mettre en evidence les phénomène de dispertion 
+
+en gros on part de l'equation d'onde avec deux gaussienne on modifie les paramètre de tel sorte
+a voir les effets de dispertion
+
+important : on doit se rendre compte que lorsque g(/v/L) est beaucoup plus petit que 1 : les effets de 
+dispersion seront négligeable
+si g/(v/L) est plus grand que 1 : les effets de dispersion sont très visibles.
+si g/(v/L) 1.3 1.5 0.9 voir se qu'il se passe.
+
+on peut laisser une lien google drive 

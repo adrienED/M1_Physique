@@ -1,0 +1,2 @@
+hello: main.c hello.c factorial.c
+   $(CC) $(CFLAGS) $@.cpp $(LDFLAGS) -o $@

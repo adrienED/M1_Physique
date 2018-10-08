@@ -1,0 +1,103 @@
+compiler : gcc TP1.c -o toto -lm
+info : ls -al var.sh
+rendre executable : chmod u+x var.sh
+ctr+d finir 
+
+faire un shellscript qui fait :
+cherche les fichiers code et excutable puis
+gcc -O -o executable code.c -lm
+./executable>resultat.out
+et qui n'ecrassent pas le resulats deja existant demande si l'utilisateur veut l'ecraser
+gcc -O -o nomaupif TP2f.c -lm
+
+
+
+CR
+exercice java :
+les deux ondes passent a travers l'une et l'autre
+si on voulait que les deux ondes se percutent, comment se rendre compte que l'image de la l'animation des 2 choses n'est pas la même
+comment séparer visuelment les deux paquets d'ondes rouge et bleu
+
+//line couleur black  a remplacer par un :
+
+ if(x<(d.width/2){g.setcolor(Color.black);} 
+	    else
+		{g.setColor.red);}
+
+Apres la premier fois que le paquet d'ondes rencontre l'obstacle une partie est réfléchie 
+
+remplacer   int y = (y1 + y2)/2; par :int y = (y1+(1-2*(frame%2))*y2)/2;
+
+
+exo triangle
+translation des hexagones avec cotés en communs
+pareil avec des pantagones 
+
+
+
+triangle1 : 
+x'=xcos(theta)-ysin(theta)
+y'=xsin(theta)+ycos(theta)
+
+Math.sin(theta)
+Math.sqrt(sqr(xC)+sqr(yC))
+
+
+translation :
+	    S[i].a = Math.sqrt(sqr(xA)+sqr(yA))
+
+
+
+  
+fin translation
+
+
+revoir superposition pour l'exam
+
+
+MEMO JAVA
+compilation : javac code.java
+execution : java code
+executer et mettre dans un .out : java code>fichier.out
+gnuplot 
+using 1:2 w p 
+
+
+Memo guassienne
+quand est ce que la gaussienne est restituer sans perte. (0.08)
+
+
+
+
+memo java 
+ecrire un code java qui creer un dodecaedre en 3d et faire l'animation
+isosaèdre 
+
+
+
+memo java
+ecrire un shellscript et un make file et voir la différence
+https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html
+avantage avec makefile : tant que les fichier ne sont pas modifiés make ne fait rien
+
+memo
+equation d'onde 
+equation sinegordon
+
+la methode de simpson gère mal les valeurs près de 0
+faire un shellscript pour TP4 avec des pas différencts 
+methode de 
+si on cherche 
+
+rendre le 10 janvier 
+
+
+1.0 1.9 0
+
+
+
+TP4 
+1)N=177
+
+2) N=177
+1  0.001

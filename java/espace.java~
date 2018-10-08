@@ -1,0 +1,8 @@
+public class espace extends outils{
+
+    public static double[] = new double[3];
+
+    public static void lincomb (double[] B, double x, int n){
+	return (B[0]*sqr(x)+B[1]*sqrtinv(x)+B[2]*ev(n))
+	    }
+}

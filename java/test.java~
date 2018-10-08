@@ -1,0 +1,32 @@
+public class test{
+
+    public static double sqr(double x){
+	return (x*x);
+    }
+    public static double L;
+    public static void main(String[] args){
+
+	double a = Double.parseDouble(args[0]);
+
+	//	System.out.println(a+" "+outils.sqr(a));
+
+	//	System.out.println(a+" "+outils.sqrtinv(a));
+
+	/*	   L=4.0;
+			   outils.L = L;
+			   System.out.println(L);
+	*/
+
+
+	//		   System.out.println(outils.ev(6));
+
+
+	double[] C = new double[3];
+	C[0]=Double.parseDouble(args[1]);
+	C[1]=Double.parseDouble(args[2]);
+	C[2]=Double.parseDouble(args[3]);
+	int n = Integer.parseInt(args[4]);
+	
+	System.out.println(espace.lincomb(C,a,1));
+}
+}
